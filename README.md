@@ -56,8 +56,8 @@ pip install numpy==1.26.4
 resize both instance images and class images to 512×512.  
 ❗ Please remember to modify the image path inside the rescale_image.py
 
-* Instance Image: Images of the specific subject you want the model to learn and personalize
-* Class Image: Generic images from the same category as the instance
+* Instance Image: Images of the specific subject you want the model to learn and personalize (about 5~10 images)
+* Class Image: Generic images from the same category as the instance (about 3 images)
 
 🖼️ Example:
 <table>
