@@ -90,8 +90,8 @@ python train.py
 
 ### 🔍 Inference
 
-Load trained model and generate fine-tune images. You can use any prompt, but it must include the unique identifier
-
+Load trained model and generate fine-tune images. You can use any prompt, but it must include the unique identifier  
+❗Please remember to modify the trained model path and generated prompt inside the inference.py
 ```
 python inference.py
 ```
