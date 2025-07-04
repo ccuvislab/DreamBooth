@@ -53,14 +53,25 @@ pip install numpy==1.26.4
 
 ### 📋 Prepare data before training
 
-resize both instance images and class images to 512×512.
+resize both instance images and class images to 512×512.  
 ❗ Please remember to modify the image path inside the rescale_image.py
 
 * Instance Image: Images of the specific subject you want the model to learn and personalize
 * Class Image: Generic images from the same category as the instance
 
 🖼️ Example:
-<div style="display: flex; gap: 10px;"> <div align="center"> <img src="Images/Instance_image.jpg" width="200"/> <p>Instance Image</p> </div> <div align="center"> <img src="Images/Class_image.jpg" width="200"/> <p>Class Image</p> </div> </div>
+<table>
+  <tr>
+    <td align="center">
+      <img src="Images/Instance_image.jpg" width="200"/><br/>
+      <b>Instance Image (Cityscapes)</b>
+    </td>
+    <td align="center">
+      <img src="Images/Class_image.jpg" width="200"/><br/>
+      <b>Class Image</b>
+    </td>
+  </tr>
+</table>
 
 ```
 python rescale_image.py
